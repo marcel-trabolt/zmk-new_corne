@@ -1,3 +1,6 @@
+[![Draw Keymap](https://github.com/marcel-trabolt/zmk-new_corne/actions/workflows/draw.yml/badge.svg)](https://github.com/marcel-trabolt/zmk-new_corne/actions/workflows/draw.yml)
+
+
 - [中文](README.md)
 - [English](README_EN.md)
 
