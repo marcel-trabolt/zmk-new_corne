@@ -163,9 +163,9 @@ layers:
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PREV
+  - $$mdi:skip-previous$$
   - PLAY PAUSE
-  - FORWARD
+  - FAST FORWARD
   - '&mkp MB4'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
