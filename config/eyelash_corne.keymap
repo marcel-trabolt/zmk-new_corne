@@ -132,6 +132,8 @@
 &trans         &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)  &trans            &trans          &trans  &kp LG(LEFT_ARROW)  &kp LA(LEFT)  &kp LA(RIGHT)  &kp LG(RIGHT)  &trans
                                      &trans     &trans     &trans                                       &trans  &trans              &trans
             >;
+
+            label = "NAVIGATION";
         };
     };
 };
