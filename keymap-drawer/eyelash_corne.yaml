@@ -45,7 +45,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - LGUI
   - SYMBOL
-  - {t: '$$mdi:keyboard-space$$', h: navigation}
+  - {t: '$$mdi:keyboard-space$$', h: NAVIGATION}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - NUMBER
   - $$mdi:apple-keyboard-option$$
@@ -196,7 +196,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  navigation:
+  NAVIGATION:
   - Gui+$$mdi:arrow-right-bold$$
   - Gui+Q
   - Gui+W
