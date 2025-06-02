@@ -92,9 +92,9 @@
         lower_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp DA_EXCLAMATION  &kp DA_DOUBLE_QUOTES  &kp DA_HASH        &kp DA_EURO        &kp DA_PERCENT                            &mmv MOVE_UP                     &kp DA_AMPERSAND     &kp DA_LESS_THAN         &kp DA_EQUAL     &kp DA_GREATER_THAN       &kp RA(DA_I)          &kp DA_DOUBLE_QUOTES
+&trans  &kp DA_EXCLAMATION  &kp DA_DOUBLE_QUOTES  &kp DA_HASH        &kp DA_AT          &kp DA_PERCENT                            &mmv MOVE_UP                     &kp DA_AMPERSAND     &kp DA_LESS_THAN         &kp DA_EQUAL     &kp DA_GREATER_THAN       &kp RA(DA_I)          &kp RS(DA_ACUTE)
 &trans  &kp RA(ASTERISK)    &kp DA_HASH           &kp DA_PERCENT     &kp DA_SLASH       &kp DA_TILDE              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DA_LEFT_BRACKET  &kp DA_LEFT_PARENTHESIS  &kp DA_QUESTION  &kp DA_RIGHT_PARENTHESIS  &kp DA_RIGHT_BRACKET  &kp DA_MINUS
-&trans  &kp DA_BACKSLASH    &kp DA_UNDERSCORE     &kp LS(LG(DA_N4))  &kp LS(LG(DA_N5))  &mkp MB5        &trans                    &mmv MOVE_DOWN                   &kp DOLLAR           &lftbrckt                &kp DA_ASTERISK  &rghtbrckt                &kp DA_CARET          &kp DA_SINGLE_QUOTE
+&trans  &kp DA_BACKSLASH    &kp DA_UNDERSCORE     &kp LS(LG(DA_N4))  &kp LS(LG(DA_N5))  &kp DA_PLUS     &trans                    &mmv MOVE_DOWN                   &kp DA_DOLLAR        &lftbrckt                &kp DA_ASTERISK  &rghtbrckt                &kp DA_CARET          &kp DA_SINGLE_QUOTE
                                                   &trans             &trans             &kp SPACE                                                                  &kp RET              &trans                   &trans
             >;
 
