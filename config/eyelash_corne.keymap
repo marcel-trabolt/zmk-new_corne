@@ -80,10 +80,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB    &kp Q               &kp W           &kp E           &kp R             &kp T                               &kp UP                &kp Y        &kp U              &kp I            &kp O            &kp P                    &kp BSPC
-&td0       &mt LEFT_CONTROL A  &mt LEFT_ALT S  &mt LEFT_GUI D  &mt LEFT_SHIFT F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &mt RIGHT_SHIFT J  &mt RIGHT_GUI K  &mt RIGHT_ALT L  &mt RIGHT_CONTROL DA_AE  &kp DA_O_SLASH
-&kp LCTRL  &kp Z               &kp X           &kp C           &kp V             &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M              &kp COMMA        &kp DOT          &kp DA_A_RING            &kp ESC
-                                               &kp LGUI        &mo 1             &lt 4 SPACE                                               &lt 3 ENTER  &mo 2              &kp RALT
+&kp TAB         &kp Q               &kp W           &kp E           &kp R             &kp T                               &kp UP                &kp Y        &kp U              &kp I            &kp O            &kp P                    &kp BSPC
+&kp LEFT_SHIFT  &mt LEFT_CONTROL A  &mt LEFT_ALT S  &mt LEFT_GUI D  &mt LEFT_SHIFT F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &mt RIGHT_SHIFT J  &mt RIGHT_GUI K  &mt RIGHT_ALT L  &mt RIGHT_CONTROL DA_AE  &kp DA_O_SLASH
+&kp LCTRL       &kp Z               &kp X           &kp C           &kp V             &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M              &kp COMMA        &kp DOT          &kp DA_A_RING            &kp ESC
+                                                    &kp LGUI        &mo 1             &lt 4 SPACE                                               &lt 3 ENTER  &mo 2              &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -92,10 +92,10 @@
         lower_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp DA_EXCLAMATION  &kp DA_DOUBLE_QUOTES  &kp DA_HASH        &kp RA(DA_SQT)     &kp DA_PERCENT                            &mmv MOVE_UP                     &kp DA_AMPERSAND     &kp DA_LESS_THAN         &kp DA_EQUAL     &kp DA_GREATER_THAN       &kp RA(DA_I)          &kp RS(DA_ACUTE)
-&trans  &kp AT_SIGN         &kp DA_HASH           &kp DA_PERCENT     &kp DA_SLASH       &kp DA_TILDE              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DA_LEFT_BRACKET  &kp DA_LEFT_PARENTHESIS  &kp DA_QUESTION  &kp DA_RIGHT_PARENTHESIS  &kp DA_RIGHT_BRACKET  &kp DA_MINUS
-&trans  &kp DA_BACKSLASH    &kp DA_UNDERSCORE     &kp LS(LG(DA_N4))  &kp LS(LG(DA_N5))  &kp DA_PLUS     &trans                    &mmv MOVE_DOWN                   &kp DOLLAR           &lftbrckt                &kp DA_ASTERISK  &rghtbrckt                &kp DA_CARET          &kp DA_SINGLE_QUOTE
-                                                  &trans             &trans             &kp SPACE                                                                  &kp RET              &trans                   &trans
+&trans  &kp DA_EXCLAMATION    &kp DA_DOUBLE_QUOTES  &kp DA_HASH        &kp LA(DA_SINGLE_QUOTE)  &kp DA_PERCENT                            &mmv MOVE_UP                     &kp DA_AMPERSAND     &kp DA_LESS_THAN         &kp DA_EQUAL     &kp DA_GREATER_THAN       &kp RA(DA_I)          &kp RS(DA_ACUTE)
+&trans  &kp GLOBE             &kp DA_HASH           &kp DA_PERCENT     &kp DA_SLASH             &kp DA_TILDE              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DA_LEFT_BRACKET  &kp DA_LEFT_PARENTHESIS  &kp DA_QUESTION  &kp DA_RIGHT_PARENTHESIS  &kp DA_RIGHT_BRACKET  &kp DA_MINUS
+&trans  &kp NON_US_BACKSLASH  &kp DA_UNDERSCORE     &kp LS(LG(DA_N4))  &kp LS(LG(DA_N5))        &kp DA_PLUS     &trans                    &mmv MOVE_DOWN                   &kp DA_DOLLAR        &lftbrckt                &kp DA_ASTERISK  &rghtbrckt                &kp DA_CARET          &kp DA_SINGLE_QUOTE
+                                                    &trans             &trans                   &kp SPACE                                                                  &kp RET              &trans                   &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
