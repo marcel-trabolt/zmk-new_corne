@@ -93,8 +93,8 @@
             display-name = "SYMBOL";
             bindings = <
 &trans  &kp DA_EXCLAMATION    &kp DA_DOUBLE_QUOTES  &kp DA_HASH        &kp LA(DA_SINGLE_QUOTE)  &kp DA_PERCENT                            &mmv MOVE_UP                     &kp DA_AMPERSAND     &kp DA_LESS_THAN         &kp DA_EQUAL     &kp DA_GREATER_THAN       &kp RA(DA_I)          &kp RS(DA_ACUTE)
-&trans  &kp GLOBE             &kp DA_HASH           &kp DA_PERCENT     &kp DA_SLASH             &kp DA_TILDE              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DA_LEFT_BRACKET  &kp DA_LEFT_PARENTHESIS  &kp DA_QUESTION  &kp DA_RIGHT_PARENTHESIS  &kp DA_RIGHT_BRACKET  &kp DA_MINUS
-&trans  &kp NON_US_BACKSLASH  &kp DA_UNDERSCORE     &kp LS(LG(DA_N4))  &kp LS(LG(DA_N5))        &kp DA_PLUS     &trans                    &mmv MOVE_DOWN                   &kp DA_DOLLAR        &lftbrckt                &kp DA_ASTERISK  &rghtbrckt                &kp DA_CARET          &kp DA_SINGLE_QUOTE
+&trans  &kp NON_US_BACKSLASH  &kp DA_HASH           &kp DA_PERCENT     &kp DA_SLASH             &kp DA_TILDE              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DA_LEFT_BRACKET  &kp DA_LEFT_PARENTHESIS  &kp DA_QUESTION  &kp DA_RIGHT_PARENTHESIS  &kp DA_RIGHT_BRACKET  &kp DA_MINUS
+&trans  &kp GLOBE             &kp DA_UNDERSCORE     &kp LS(LG(DA_N4))  &kp LS(LG(DA_N5))        &kp DA_PLUS     &trans                    &mmv MOVE_DOWN                   &kp DA_DOLLAR        &lftbrckt                &kp DA_ASTERISK  &rghtbrckt                &kp DA_CARET          &kp DA_SINGLE_QUOTE
                                                     &trans             &trans                   &kp SPACE                                                                  &kp RET              &trans                   &trans
             >;
 
